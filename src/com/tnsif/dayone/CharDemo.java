@@ -6,7 +6,7 @@ public class CharDemo {
 		char ch = 'a';
 		System.out.println(ch);
 
-		
+	
 		char ch1 = 65;
 		System.out.println(ch1);
 
@@ -22,7 +22,7 @@ public class CharDemo {
 		int a = 'A';
 		System.out.println(a);
 	}
-		// TODO Auto-generated method stub
+		
 
 	}
 
