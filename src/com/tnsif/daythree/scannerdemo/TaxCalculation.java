@@ -1,8 +1,9 @@
+//Program to demonstrate encapsulation
 package com.tnsif.daythree.scannerdemo;
 
 public class TaxCalculation {
-	
-		public void calculateTax(Person person) {
+	// function to calculate tax
+	public void calculateTax(Person person) {
 		if (person.getAge() > 65 || person.getGender().equalsIgnoreCase("female")) {
 			person.setTax(0);
 			System.out.println("Tax not applicable");
@@ -17,6 +18,5 @@ public class TaxCalculation {
 				person.setTax((person.getIncome() - 800000) * 30 / 100 + 94000);
 			}
 		}
-
 	}
-		
+}
